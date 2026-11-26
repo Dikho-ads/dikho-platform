@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@import './dikho.css';
+
+@source '../views/**/*.blade.php';
+@source '../js/**/*.{vue,js}';
+
+/* Fonts load from Google Fonts in resources/views/app.blade.php. */
+@theme {
+    --font-sans: 'Geist', 'Anek Devanagari', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+    --font-display: 'Anek Latin', 'Anek Devanagari', system-ui, sans-serif;
+
+    --color-ink: #0f172a;
+    --color-acc: #f2a007;
+}
