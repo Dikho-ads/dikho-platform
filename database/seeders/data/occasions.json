@@ -1,0 +1,622 @@
+[
+  {
+    "slug": "tulsi-vivah",
+    "name": "Tulsi Vivah",
+    "name_hi": "तुलसी विवाह",
+    "name_mr": "तुळशी विवाह",
+    "kind": "festival",
+    "region": "maharashtra",
+    "starts_on": "2026-11-21",
+    "ends_on": "2026-11-21",
+    "weights": {
+      "sweets": 0.9,
+      "salon": 0.4,
+      "clinic": 0.2,
+      "coaching": 0.2,
+      "mobile": 0.5,
+      "kirana": 0.8
+    },
+    "rule": "Greeting first, offer second on devotional days",
+    "photo_slot": "occasion-tulsi-vivah"
+  },
+  {
+    "slug": "wedding-season",
+    "name": "Wedding season",
+    "name_hi": "शादी का सीज़न",
+    "name_mr": "लग्नसराई",
+    "kind": "season",
+    "region": "maharashtra",
+    "starts_on": "2026-11-21",
+    "ends_on": "2026-12-15",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.9,
+      "kirana": 0.8
+    },
+    "rule": "Gifting and bulk buying rise for weddings from Tulsi Vivah to mid-December.",
+    "photo_slot": "occasion-wedding-season"
+  },
+  {
+    "slug": "guru-nanak",
+    "name": "Guru Nanak Jayanti",
+    "name_hi": "गुरु नानक जयंती",
+    "name_mr": "गुरु नानक जयंती",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2026-11-24",
+    "ends_on": "2026-11-24",
+    "weights": {
+      "sweets": 0.9,
+      "salon": 0.4,
+      "clinic": 0.2,
+      "coaching": 0.2,
+      "mobile": 0.4,
+      "kirana": 0.4
+    },
+    "rule": "Greeting first, offer second on devotional days",
+    "photo_slot": "occasion-guru-nanak"
+  },
+  {
+    "slug": "black-friday",
+    "name": "Black Friday Sale",
+    "name_hi": "ब्लैक फ्राइडे सेल",
+    "name_mr": "ब्लॅक फ्रायडे सेल",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2026-11-27",
+    "ends_on": "2026-11-27",
+    "weights": {
+      "sweets": 0.4,
+      "salon": 0.5,
+      "clinic": 0.3,
+      "coaching": 0.5,
+      "mobile": 0.7,
+      "kirana": 0.2
+    },
+    "rule": "Phone buyers now wait for Black Friday prices online; match them locally.",
+    "photo_slot": "occasion-black-friday"
+  },
+  {
+    "slug": "salary-week-dec",
+    "name": "Salary week",
+    "name_hi": "सैलरी वीक",
+    "name_mr": "पगाराचा आठवडा",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2026-12-01",
+    "ends_on": "2026-12-05",
+    "weights": {
+      "sweets": 0.4,
+      "salon": 0.5,
+      "clinic": 0.3,
+      "coaching": 0.5,
+      "mobile": 0.7,
+      "kirana": 0.9
+    },
+    "rule": "Salaries land on the 1st-5th; monthly buying and EMI decisions peak.",
+    "photo_slot": "occasion-salary-week-dec"
+  },
+  {
+    "slug": "winter-dec",
+    "name": "Winter special",
+    "name_hi": "सर्दी स्पेशल",
+    "name_mr": "हिवाळा स्पेशल",
+    "kind": "season",
+    "region": "india",
+    "starts_on": "2026-12-01",
+    "ends_on": "2026-12-31",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.3,
+      "kirana": 0.7
+    },
+    "rule": "No snow scenes: keep it local (warm homes, chai, laddoos)",
+    "photo_slot": "occasion-winter-dec"
+  },
+  {
+    "slug": "sawai-gandharva",
+    "name": "Sawai Gandharva Mahotsav",
+    "name_hi": "सवाई गंधर्व महोत्सव",
+    "name_mr": "सवाई गंधर्व महोत्सव",
+    "kind": "local",
+    "region": "pune",
+    "starts_on": "2026-12-09",
+    "ends_on": "2026-12-13",
+    "weights": {
+      "mobile": 0.3,
+      "kirana": 0.4,
+      "sweets": 0.8,
+      "salon": 0.5,
+      "clinic": 0.1,
+      "coaching": 0.2
+    },
+    "rule": "Pune’s classical music festival; evening crowds in Sadashiv Peth. Dates follow the organisers’ announcement.",
+    "photo_slot": "occasion-sawai-gandharva"
+  },
+  {
+    "slug": "champa-shashti",
+    "name": "Champa Shashti",
+    "name_hi": "चंपा षष्ठी",
+    "name_mr": "चंपाषष्ठी",
+    "kind": "festival",
+    "region": "maharashtra",
+    "starts_on": "2026-12-15",
+    "ends_on": "2026-12-15",
+    "weights": {
+      "sweets": 0.9,
+      "salon": 0.4,
+      "clinic": 0.2,
+      "coaching": 0.2,
+      "mobile": 0.3,
+      "kirana": 0.7
+    },
+    "rule": "Bhandara-yellow palette for Khandoba",
+    "photo_slot": "occasion-champa-shashti"
+  },
+  {
+    "slug": "gita-jayanti",
+    "name": "Gita Jayanti",
+    "name_hi": "गीता जयंती",
+    "name_mr": "गीता जयंती",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2026-12-20",
+    "ends_on": "2026-12-20",
+    "weights": {
+      "sweets": 0.9,
+      "salon": 0.4,
+      "clinic": 0.2,
+      "coaching": 0.2,
+      "mobile": 0.3,
+      "kirana": 0.4
+    },
+    "rule": "Greeting first, offer second on devotional days",
+    "photo_slot": "occasion-gita-jayanti"
+  },
+  {
+    "slug": "datta-jayanti",
+    "name": "Datta Jayanti",
+    "name_hi": "दत्त जयंती",
+    "name_mr": "दत्त जयंती",
+    "kind": "festival",
+    "region": "maharashtra",
+    "starts_on": "2026-12-23",
+    "ends_on": "2026-12-23",
+    "weights": {
+      "sweets": 0.9,
+      "salon": 0.4,
+      "clinic": 0.2,
+      "coaching": 0.2,
+      "mobile": 0.4,
+      "kirana": 0.8
+    },
+    "rule": "Greeting first, offer second on devotional days",
+    "photo_slot": "occasion-datta-jayanti"
+  },
+  {
+    "slug": "christmas",
+    "name": "Christmas",
+    "name_hi": "क्रिसमस",
+    "name_mr": "नाताळ",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2026-12-25",
+    "ends_on": "2026-12-25",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.8,
+      "kirana": 0.6
+    },
+    "rule": "No snow scenes: stars and lights, Indian homes",
+    "photo_slot": "occasion-christmas"
+  },
+  {
+    "slug": "year-end-sale",
+    "name": "Year-end sale",
+    "name_hi": "ईयर-एंड सेल",
+    "name_mr": "वर्षअखेर सेल",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2026-12-26",
+    "ends_on": "2026-12-31",
+    "weights": {
+      "sweets": 0.4,
+      "salon": 0.5,
+      "clinic": 0.3,
+      "coaching": 0.5,
+      "mobile": 0.9,
+      "kirana": 0.5
+    },
+    "rule": "Buyers wait for year-end prices before the new year.",
+    "photo_slot": "occasion-year-end-sale"
+  },
+  {
+    "slug": "new-year-eve",
+    "name": "New Year's Eve",
+    "name_hi": "थर्टी फर्स्ट",
+    "name_mr": "थर्टी फर्स्ट",
+    "kind": "season",
+    "region": "india",
+    "starts_on": "2026-12-31",
+    "ends_on": "2026-12-31",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.5,
+      "kirana": 0.9
+    },
+    "rule": "No alcohol in creatives",
+    "photo_slot": "occasion-new-year-eve"
+  },
+  {
+    "slug": "new-year",
+    "name": "New Year 2027",
+    "name_hi": "नया साल 2027",
+    "name_mr": "नववर्ष 2027",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2027-01-01",
+    "ends_on": "2027-01-01",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.9,
+      "kirana": 0.8
+    },
+    "rule": "Everyone wishes on the 1st; the post that wishes AND offers gets remembered.",
+    "photo_slot": "occasion-new-year"
+  },
+  {
+    "slug": "salary-week-jan",
+    "name": "Salary week",
+    "name_hi": "सैलरी वीक",
+    "name_mr": "पगाराचा आठवडा",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2027-01-01",
+    "ends_on": "2027-01-05",
+    "weights": {
+      "sweets": 0.4,
+      "salon": 0.5,
+      "clinic": 0.3,
+      "coaching": 0.5,
+      "mobile": 0.7,
+      "kirana": 0.9
+    },
+    "rule": "Salaries land on the 1st-5th; monthly buying and EMI decisions peak.",
+    "photo_slot": "occasion-salary-week-jan"
+  },
+  {
+    "slug": "winter-jan",
+    "name": "Winter special",
+    "name_hi": "सर्दी स्पेशल",
+    "name_mr": "हिवाळा स्पेशल",
+    "kind": "season",
+    "region": "india",
+    "starts_on": "2027-01-01",
+    "ends_on": "2027-01-31",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.25,
+      "kirana": 0.6
+    },
+    "rule": "No snow scenes: keep it local (warm homes, chai, laddoos)",
+    "photo_slot": "occasion-winter-jan"
+  },
+  {
+    "slug": "bhogi",
+    "name": "Bhogi",
+    "name_hi": "भोगी",
+    "name_mr": "भोगी",
+    "kind": "festival",
+    "region": "maharashtra",
+    "starts_on": "2027-01-14",
+    "ends_on": "2027-01-14",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.2,
+      "kirana": 0.8
+    },
+    "rule": "Bhogichi bhaji and bajra bhakri: til, bajra and winter vegetables.",
+    "photo_slot": "occasion-bhogi"
+  },
+  {
+    "slug": "makar-sankranti",
+    "name": "Makar Sankranti",
+    "name_hi": "मकर संक्रांति",
+    "name_mr": "मकर संक्रांत",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2027-01-15",
+    "ends_on": "2027-01-15",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.7,
+      "kirana": 1
+    },
+    "rule": "Maharashtra: black-and-gold is the Sankranti look",
+    "photo_slot": "occasion-makar-sankranti"
+  },
+  {
+    "slug": "haldi-kunku",
+    "name": "Haldi-Kunku season",
+    "name_hi": "हल्दी-कुमकुम",
+    "name_mr": "हळदी-कुंकू",
+    "kind": "season",
+    "region": "maharashtra",
+    "starts_on": "2027-01-16",
+    "ends_on": "2027-01-31",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.3,
+      "kirana": 0.8
+    },
+    "rule": "Women host Haldi-Kunku from Sankranti to Rathasaptami and buy vaan gifts in bulk.",
+    "photo_slot": "occasion-haldi-kunku"
+  },
+  {
+    "slug": "republic-day",
+    "name": "Republic Day",
+    "name_hi": "गणतंत्र दिवस",
+    "name_mr": "प्रजासत्ताक दिन",
+    "kind": "national",
+    "region": "india",
+    "starts_on": "2027-01-26",
+    "ends_on": "2027-01-26",
+    "weights": {
+      "sweets": 0.8,
+      "salon": 0.8,
+      "clinic": 0.2,
+      "coaching": 0.3,
+      "mobile": 0.9,
+      "kirana": 0.5
+    },
+    "rule": "Flag Code: tricolour colours only, never the national flag itself in an ad",
+    "photo_slot": "occasion-republic-day"
+  },
+  {
+    "slug": "salary-week-feb",
+    "name": "Salary week",
+    "name_hi": "सैलरी वीक",
+    "name_mr": "पगाराचा आठवडा",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2027-02-01",
+    "ends_on": "2027-02-05",
+    "weights": {
+      "mobile": 0.7,
+      "kirana": 0.9,
+      "sweets": 0.4,
+      "salon": 0.6,
+      "clinic": 0.4,
+      "coaching": 0.5
+    },
+    "rule": "Salaries land on the 1st-5th; monthly buying and EMI decisions peak.",
+    "photo_slot": "occasion-salary-week-feb"
+  },
+  {
+    "slug": "board-exams",
+    "name": "Board exam season",
+    "name_hi": "बोर्ड परीक्षा का मौसम",
+    "name_mr": "बोर्ड परीक्षांचा काळ",
+    "kind": "season",
+    "region": "maharashtra",
+    "starts_on": "2027-02-10",
+    "ends_on": "2027-03-25",
+    "weights": {
+      "mobile": 0.3,
+      "kirana": 0.4,
+      "sweets": 0.3,
+      "salon": 0.1,
+      "clinic": 0.4,
+      "coaching": 1
+    },
+    "rule": "Calm, helpful tone; no fear-based messages to students.",
+    "photo_slot": "occasion-board-exams"
+  },
+  {
+    "slug": "valentines",
+    "name": "Valentine’s Day",
+    "name_hi": "वैलेंटाइन डे",
+    "name_mr": "व्हॅलेंटाईन डे",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2027-02-14",
+    "ends_on": "2027-02-14",
+    "weights": {
+      "mobile": 0.6,
+      "kirana": 0.2,
+      "sweets": 0.7,
+      "salon": 0.8,
+      "clinic": 0.1,
+      "coaching": 0.1
+    },
+    "rule": "Keep it about gifting; avoid anything that could upset families.",
+    "photo_slot": "occasion-valentines"
+  },
+  {
+    "slug": "shivaji-jayanti",
+    "name": "Shiv Jayanti",
+    "name_hi": "शिवाजी जयंती",
+    "name_mr": "शिवजयंती",
+    "kind": "festival",
+    "region": "maharashtra",
+    "starts_on": "2027-02-19",
+    "ends_on": "2027-02-19",
+    "weights": {
+      "mobile": 0.4,
+      "kirana": 0.5,
+      "sweets": 0.7,
+      "salon": 0.3,
+      "clinic": 0.3,
+      "coaching": 0.5
+    },
+    "rule": "Greeting only; never put Maharaj’s image next to a price.",
+    "photo_slot": "occasion-shivaji-jayanti"
+  },
+  {
+    "slug": "marathi-bhasha-din",
+    "name": "Marathi Bhasha Din",
+    "name_hi": "मराठी भाषा दिवस",
+    "name_mr": "मराठी भाषा दिन",
+    "kind": "national",
+    "region": "maharashtra",
+    "starts_on": "2027-02-27",
+    "ends_on": "2027-02-27",
+    "weights": {
+      "mobile": 0.3,
+      "kirana": 0.4,
+      "sweets": 0.5,
+      "salon": 0.3,
+      "clinic": 0.3,
+      "coaching": 0.6
+    },
+    "rule": "Post in Marathi on this day.",
+    "photo_slot": "occasion-marathi-bhasha-din"
+  },
+  {
+    "slug": "salary-week-mar",
+    "name": "Salary week",
+    "name_hi": "सैलरी वीक",
+    "name_mr": "पगाराचा आठवडा",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2027-03-01",
+    "ends_on": "2027-03-05",
+    "weights": {
+      "mobile": 0.7,
+      "kirana": 0.9,
+      "sweets": 0.4,
+      "salon": 0.6,
+      "clinic": 0.4,
+      "coaching": 0.5
+    },
+    "rule": "Salaries land on the 1st-5th; monthly buying and EMI decisions peak.",
+    "photo_slot": "occasion-salary-week-mar"
+  },
+  {
+    "slug": "maha-shivratri",
+    "name": "Maha Shivratri",
+    "name_hi": "महाशिवरात्रि",
+    "name_mr": "महाशिवरात्री",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2027-03-06",
+    "ends_on": "2027-03-06",
+    "weights": {
+      "mobile": 0.3,
+      "kirana": 0.8,
+      "sweets": 0.7,
+      "salon": 0.2,
+      "clinic": 0.2,
+      "coaching": 0.2
+    },
+    "rule": "Fasting day: upvas foods sell; greeting first, offer second.",
+    "photo_slot": "occasion-maha-shivratri"
+  },
+  {
+    "slug": "womens-day",
+    "name": "Women’s Day",
+    "name_hi": "महिला दिवस",
+    "name_mr": "महिला दिन",
+    "kind": "national",
+    "region": "india",
+    "starts_on": "2027-03-08",
+    "ends_on": "2027-03-08",
+    "weights": {
+      "mobile": 0.5,
+      "kirana": 0.4,
+      "sweets": 0.5,
+      "salon": 0.9,
+      "clinic": 0.7,
+      "coaching": 0.5
+    },
+    "rule": "Celebrate real women customers or staff, with their consent.",
+    "photo_slot": "occasion-womens-day"
+  },
+  {
+    "slug": "ramzan-eid",
+    "name": "Ramzan Eid",
+    "name_hi": "ईद उल-फ़ित्र",
+    "name_mr": "रमजान ईद",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2027-03-10",
+    "ends_on": "2027-03-10",
+    "weights": {
+      "mobile": 0.6,
+      "kirana": 0.8,
+      "sweets": 0.9,
+      "salon": 0.7,
+      "clinic": 0.2,
+      "coaching": 0.2
+    },
+    "rule": "Date follows the moon sighting; confirm a day before.",
+    "photo_slot": "occasion-ramzan-eid"
+  },
+  {
+    "slug": "holi",
+    "name": "Holi",
+    "name_hi": "होली",
+    "name_mr": "होळी",
+    "kind": "festival",
+    "region": "india",
+    "starts_on": "2027-03-22",
+    "ends_on": "2027-03-22",
+    "weights": {
+      "mobile": 0.5,
+      "kirana": 0.8,
+      "sweets": 0.9,
+      "salon": 0.6,
+      "clinic": 0.3,
+      "coaching": 0.2
+    },
+    "rule": "Puran poli and colours; Holika Dahan is the evening before.",
+    "photo_slot": "occasion-holi"
+  },
+  {
+    "slug": "financial-year-end",
+    "name": "Financial year end",
+    "name_hi": "वित्त वर्ष समाप्ति",
+    "name_mr": "आर्थिक वर्ष अखेर",
+    "kind": "moment",
+    "region": "india",
+    "starts_on": "2027-03-25",
+    "ends_on": "2027-03-31",
+    "weights": {
+      "mobile": 0.8,
+      "kirana": 0.3,
+      "sweets": 0.2,
+      "salon": 0.2,
+      "clinic": 0.3,
+      "coaching": 0.3
+    },
+    "rule": "Year-end stock clearance; state the real old price.",
+    "photo_slot": "occasion-financial-year-end"
+  }
+]

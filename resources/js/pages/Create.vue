@@ -126,8 +126,8 @@ function again() {
 </script>
 
 <template>
-    <div style="display: flex; flex-wrap: wrap; flex: 1; align-items: stretch">
-        <section style="flex: 1 1 300px; min-width: 0; padding: 22px; border-right: 1px solid #E2E8F0; display: flex; flex-direction: column; gap: 18px" class="rise">
+    <div class="cr-grid" style="display: flex; flex-wrap: wrap; flex: 1; align-items: stretch">
+        <section class="rise cr-brief" style="flex: 1 1 300px; min-width: 0; padding: 22px; border-right: 1px solid #E2E8F0; display: flex; flex-direction: column; gap: 18px">
             <span class="eyb"><b>01</b>·<span>Brief</span></span>
             <div style="display: flex; flex-direction: column; gap: 4px">
                 <button v-for="(f, i) in fmts" :key="f.n" type="button" :class="f.cls" style="padding: 9px 12px" @click="fmt = i"><span class="rd"></span><span class="grow ts" style="font-weight: 500">{{ f.n }}</span><span class="tag cr">{{ f.cr }}</span></button>
@@ -148,7 +148,7 @@ function again() {
             </div>
             <button type="button" class="btn bp lg full" @click="make">{{ makeTxt }}</button>
         </section>
-        <section class="dots" style="flex: 2.2 1 520px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 16px; background-color: #F8FAFC">
+        <section class="dots cr-versions" style="flex: 2.2 1 520px; min-width: 0; padding: 22px; display: flex; flex-direction: column; gap: 16px; background-color: #F8FAFC">
             <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
                 <span class="eyb"><b>02</b>·<span>{{ stageHead }}</span></span><span class="sp"></span>
                 <template v-if="ready">
@@ -196,7 +196,7 @@ function again() {
                 <svg viewBox="0 0 21 21" width="140" height="140" shape-rendering="crispEdges" role="img" aria-label="QR code for SHAADI2K"><rect width="21" height="21" fill="#fff"></rect><path :d="qr" fill="#0F172A"></path></svg>
             </div>
         </section>
-        <section :style="{ flex: '1 1 300px', minWidth: 0, padding: '22px', borderLeft: '1px solid #E2E8F0', display: 'flex', flexDirection: 'column', gap: '18px', opacity: ready ? 1 : 0.45, transition: 'opacity .3s', pointerEvents: ready ? 'auto' : 'none' }">
+        <section class="cr-publish" :style="{ flex: '1 1 300px', minWidth: 0, padding: '22px', borderLeft: '1px solid #E2E8F0', display: 'flex', flexDirection: 'column', gap: '18px', opacity: ready ? 1 : 0.45, transition: 'opacity .3s', pointerEvents: ready ? 'auto' : 'none' }">
             <span class="eyb"><b>03</b>·<span>Trust check</span></span>
             <div style="display: flex; gap: 14px; align-items: center">
                 <svg viewBox="0 0 64 64" width="64" height="64" role="img" :aria-label="`Trust score ${score}`"><circle cx="32" cy="32" r="27" fill="none" stroke="#F1F5F9" stroke-width="6"></circle><circle cx="32" cy="32" r="27" fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-dasharray="170" :stroke-dashoffset="off" transform="rotate(-90 32 32)" style="transition: stroke-dashoffset .8s cubic-bezier(.2,.7,.2,1)"></circle><text x="32" y="38" text-anchor="middle" font-family="Geist" font-weight="600" font-size="17" fill="#0F172A">{{ score }}</text></svg>
@@ -232,4 +232,23 @@ function again() {
 .pm { width: 20px; height: 20px; border-radius: 6px; display: grid; place-items: center; font: 500 10px var(--fm); box-shadow: inset 0 0 0 1px #CBD5E1; background: #fff; color: #64748B; }
 .pm.d { background: #0F172A; color: #fff; box-shadow: none; }
 .pm.c { box-shadow: inset 0 0 0 1.5px #0F172A; color: #0F172A; }
+</style>
+
+<style scoped>
+/* Laptops: three columns do not fit; brief on the left, versions over trust + publish on the right. */
+@media (min-width: 900px) and (max-width: 1279px) {
+    .cr-grid {
+        display: grid !important;
+        grid-template-columns: minmax(280px, 320px) minmax(0, 1fr);
+        align-items: start !important;
+    }
+    .cr-brief {
+        grid-row: 1 / span 2;
+        align-self: stretch;
+    }
+    .cr-publish {
+        border-left: 0 !important;
+        border-top: 1px solid #e2e8f0;
+    }
+}
 </style>

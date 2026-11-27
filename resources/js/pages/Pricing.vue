@@ -4,7 +4,7 @@ import { useApp, PACKAGES, inr } from '@/stores/app';
 import Logo from '@/components/ui/Logo.vue';
 
 const app = useApp();
-const ctaTo = computed(() => (app.authed ? { name: 'settings' } : { name: 'login' }));
+const ctaTo = computed(() => (app.authed ? { name: 'settings' } : { name: 'signup' }));
 const isCurrent = (p) => app.authed && p.id === app.packageId;
 const ctaLabel = (p) => {
     if (!app.authed) return p.price ? 'Get started' : 'Start free';
@@ -27,7 +27,7 @@ const example = 3 * 15 + 7 * 6;
             <RouterLink :to="{ name: 'landing' }" aria-label="Dikho home"><Logo /></RouterLink>
             <span class="sp"></span>
             <RouterLink v-if="!app.authed" class="btn bg" :to="{ name: 'login' }">Sign in</RouterLink>
-            <RouterLink class="btn bp" :to="app.authed ? { name: 'home' } : { name: 'login' }">{{ app.authed ? 'Open dashboard' : 'Get started' }}</RouterLink>
+            <RouterLink class="btn bp" :to="app.authed ? { name: 'home' } : { name: 'signup' }">{{ app.authed ? 'Open dashboard' : 'Get started' }}</RouterLink>
         </header>
 
         <main class="mx-auto max-w-6xl px-4 pt-6 pb-16">

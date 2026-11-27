@@ -98,7 +98,7 @@ function add() {
                             <div class="ln"><span class="muted">sample hook</span><span style="text-align: right">{{ c.hook }}</span></div>
                         </div>
                     </div>
-                    <div style="position: relative; height: 112px; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; background: #F8FAFC" class="dots" aria-label="Phase timeline">
+                    <div style="position: relative; overflow: hidden; height: 112px; border-top: 1px solid #E2E8F0; border-bottom: 1px solid #E2E8F0; background: #F8FAFC" class="dots" aria-label="Phase timeline">
                         <div style="position: absolute; left: 0; right: 0; top: 0; display: grid; grid-template-columns: repeat(22, minmax(0, 1fr))">
                             <span v-for="(a, i) in axis" :key="i" class="mono" :style="{ fontSize: '9.5px', color: a.c, textAlign: 'center', paddingTop: '6px', borderLeft: `1px solid ${a.b}`, height: '112px' }">{{ a.n }}</span>
                         </div>

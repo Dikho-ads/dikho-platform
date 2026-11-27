@@ -4,7 +4,7 @@ import { useApp, PACKAGES, inr } from '@/stores/app';
 import Logo from '@/components/ui/Logo.vue';
 
 const app = useApp();
-const ctaTo = computed(() => (app.authed ? { name: 'home' } : { name: 'login' }));
+const ctaTo = computed(() => (app.authed ? { name: 'home' } : { name: 'signup' }));
 
 const steps = [
     { n: '01', t: 'Tell us about your shop', d: 'Category, town, language, WhatsApp number and your usual offers. That is your brand kit, set once.' },

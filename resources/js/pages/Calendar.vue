@@ -101,6 +101,7 @@ function remove() {
                     <span class="eyb"><b>01</b>·<span>Calendar</span></span><span class="sp"></span>
                     <span style="display: flex; gap: 14px" class="tx muted"><span v-for="l in legend" :key="l[0]" style="display: inline-flex; gap: 6px; align-items: center"><span :class="['ty', l[0]]"></span>{{ l[1] }}</span></span>
                 </div>
+                <div class="cal-scroll"><div class="cal-inner">
                 <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-bottom: 1px solid #E2E8F0; background: #F8FAFC"><span v-for="w in wd" :key="w" class="lm" style="padding: 9px 10px">{{ w }}</span></div>
                 <div style="display: grid; grid-template-columns: repeat(7, minmax(0, 1fr))">
                     <div v-for="(c, i) in cells" :key="i" :class="c.cls">
@@ -111,6 +112,7 @@ function remove() {
                         </button>
                     </div>
                 </div>
+                </div></div>
                 <div class="row" style="border-top: 1px solid #E2E8F0"><svg class="i s" viewBox="0 0 24 24" aria-hidden="true" style="color: #64748B"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5M12 8v.01"></path></svg><span class="tx muted">The free daily post on every open day isn’t shown. Week batches arrive 3 days early for a one-click look.</span></div>
             </section>
             <aside style="flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
@@ -157,4 +159,16 @@ function remove() {
 .it:hover { border-color: #94A3B8; transform: translateY(-1px); }
 .it.on { border-color: #0F172A; box-shadow: inset 0 0 0 1px #0F172A; }
 .it.sw { animation: rise .5s var(--ease) both; }
+</style>
+
+<style scoped>
+/* Phones: keep day cells readable and let the month scroll sideways. */
+@media (max-width: 699px) {
+    .cal-scroll {
+        overflow-x: auto;
+    }
+    .cal-inner {
+        min-width: 680px;
+    }
+}
 </style>

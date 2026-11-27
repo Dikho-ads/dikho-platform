@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#0F172A">
+    <meta name="theme-color" content="#0D1129">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <title>Dikho - The World Should See You</title>
     <meta name="description" content="Plan the month, make posts and reels in your language, and run WhatsApp and Meta from one place.">
     <link rel="preconnect" href="https://fonts.googleapis.com">

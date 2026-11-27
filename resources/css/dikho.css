@@ -254,3 +254,30 @@ body{margin:0;background:var(--card)}
 svg.i,.brand svg{display:inline-block;vertical-align:middle}
 .scrim,.modal,.drawer,.toast{position:fixed}
 @media (min-width:900px){.side{position:sticky;top:0;align-self:flex-start;height:100vh;overflow-y:auto}}
+
+/* ---------- responsive: the boards are drawn at 1440; laptops and phones are narrower ---------- */
+@media (max-width:1279px){
+  .bar{padding:10px 24px}
+  .wrap{padding:22px 24px 40px;gap:20px}
+  .h-xl{font-size:36px}
+  .h-lg{font-size:24px}
+}
+@media (max-width:899px){
+  .wrap{padding:16px 14px 32px;gap:16px}
+  .h-xl{font-size:28px}
+  .h-lg{font-size:22px}
+  .h-md{font-size:17px}
+  .num{font-size:24px}
+  .ph{padding:12px 14px;min-height:48px;flex-wrap:wrap}
+  .pb{padding:14px}
+  .row{padding:12px 14px}
+  .strip>div{padding:12px 14px}
+  .in,.search input{font-size:16px}
+  .seg,.tabs{max-width:100%;overflow-x:auto;scrollbar-width:none}
+  .seg::-webkit-scrollbar,.tabs::-webkit-scrollbar{display:none}
+  .toast{left:12px;right:12px;bottom:calc(80px + env(safe-area-inset-bottom))}
+  .modal{top:16px}
+  .tbl th,.tbl td{padding:10px 12px}
+  .st{white-space:normal;align-items:flex-start}
+  .st::before{margin-top:.3em}
+}

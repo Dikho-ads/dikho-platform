@@ -7,6 +7,8 @@ const routes = [
     { path: '/', name: 'landing', component: () => import('./pages/Landing.vue'), meta: { public: true } },
     { path: '/pricing', name: 'pricing', component: () => import('./pages/Pricing.vue'), meta: { public: true } },
     { path: '/login', name: 'login', component: () => import('./pages/Login.vue'), meta: { public: true } },
+    // Same screen as sign in (shared billboard panel), in sign-up mode.
+    { path: '/signup', name: 'signup', component: () => import('./pages/Login.vue'), meta: { public: true } },
     { path: '/setup', name: 'setup', component: () => import('./pages/Setup.vue') },
     {
         path: '/app',

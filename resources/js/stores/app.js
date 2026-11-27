@@ -80,6 +80,20 @@ export const useApp = defineStore('app', {
             this.authed = true;
             if (email) this.user.email = email;
         },
+        // POST /api/auth/register + /api/auth/verify. A new account always goes through shop setup.
+        signUp({ name, email, whatsapp }) {
+            const clean = (name || '').trim();
+            this.authed = true;
+            this.setupDone = false;
+            this.user.name = clean.split(/\s+/)[0] || this.user.name;
+            this.user.initials = clean
+                .split(/\s+/)
+                .slice(0, 2)
+                .map((w) => w[0]?.toUpperCase() || '')
+                .join('') || this.user.initials;
+            this.user.email = email || '';
+            if (whatsapp) this.shop.whatsapp = '+91 ' + whatsapp;
+        },
         logout() {
             this.authed = false;
         },

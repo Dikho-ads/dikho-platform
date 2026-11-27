@@ -42,7 +42,8 @@ Every creative still follows the lead formula (section 4). We never promise a co
 |---|---|
 | `/` | Landing, restyled to the new look |
 | `/pricing` | Packages and what credits buy |
-| `/login` | Sign in (w-Login) |
+| `/login` | Sign in: email + 6-digit code or Google (w-Login); the code step is `?step=code` so browser Back works |
+| `/signup` | Sign up: name, email, WhatsApp number, terms; then the email code, then shop setup. Shares the Login screen |
 | `/setup` | Shop setup, 10 steps with a live preview (w-Setup) |
 | `/app` | Dashboard: today's ready posts, needs you, this week, coming up (w-Home) |
 | `/app/create` | Create studio: brief, 3 versions, trust check, publish (w-Create) |
@@ -81,8 +82,8 @@ short hook, clear offer, number, deadline, shop name + place, customer language,
 
 ## 6. Known gaps / next decisions
 
-- Laptop-first: the sidebar stacks on top below 800 px; a proper phone layout is the mobile app's job.
-- Backend: every store action maps to a future endpoint (auth, shop, package, credits spend, wallet top-up).
+- Responsive: >= 1280 px full sidebar (the design); 900-1279 px icon rail and tighter spacing; < 900 px phone shell from the Mobile v2 design (top header, bottom tab bar Home / Plan / Studio / Customers / Results, menu sheet). The native mobile app is still a later project.
+- Backend (built 2026-11-27): Laravel JSON API + PostgreSQL, Nuxt 4 web app in `web/`; contract in `docs/work/real-platform-build/API.md`. Still missing: payment gateway, real posting to WhatsApp/Meta/Google, AI copy and images, photo upload, customer import, plan list endpoint, a "paused" campaign status.
 - Native-speaker review of all Marathi / Hindi copy.
 - AI service contract (inputs, outputs, batching) to be written with the RunPod / fal.ai decision.
 

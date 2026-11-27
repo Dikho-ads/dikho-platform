@@ -114,3 +114,14 @@ function pick(i) {
     </section>
   </div>
 </template>
+
+<style scoped>
+.hm {
+    aspect-ratio: 1.6;
+    border-radius: 5px;
+    transition: transform 0.2s var(--ease);
+}
+.hm:hover {
+    transform: scale(1.08);
+}
+</style>

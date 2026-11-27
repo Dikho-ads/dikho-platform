@@ -282,6 +282,7 @@ function make() {
 .goal:hover{transform:translateY(-2px);border-color:#CBD5E1}
 .goal.on{border-color:#0F172A;box-shadow:inset 0 0 0 1px #0F172A}
 .crow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:center;padding:9px 0;border-bottom:1px dashed #E2E8F0}
+@media (max-width:599px){.crow{grid-template-columns:minmax(0,1fr);gap:8px}.crow .seg{display:flex;width:100%}.crow .seg button{flex:1}}
 input[type=range]{accent-color:#0F172A;width:100%}
 .scale{display:grid;grid-template-columns:110px minmax(0,1fr) 110px;gap:12px;align-items:center}
 </style>

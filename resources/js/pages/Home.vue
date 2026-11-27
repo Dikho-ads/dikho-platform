@@ -122,7 +122,7 @@ function undo() {
                             <button v-for="(n, i) in langNames" :key="n" type="button" :class="lang === i ? 'on' : ''" @click="lang = i">{{ n }}</button>
                         </div>
                     </div>
-                    <div class="pb" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)); gap: 14px">
+                    <div class="pb ready-posts" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)); gap: 14px">
                         <div v-for="(x, i) in posts" :key="x.n" class="pc hov">
                             <div :class="x.pc" style="font-size: 9.4px">
                                 <div v-if="x.top" class="pi">{{ x.ph }}</div>
@@ -201,4 +201,23 @@ function undo() {
 .pc { display: flex; flex-direction: column; gap: 12px; padding: 14px; border: 1px solid #E2E8F0; border-radius: 12px; min-width: 0; }
 .tl { display: grid; grid-template-columns: 64px 14px minmax(0, 1fr) auto; gap: 10px; align-items: center; padding: 11px 18px; text-decoration: none; color: #0F172A; transition: background .15s; }
 .tl:hover { background: #F8FAFC; }
+</style>
+
+<style scoped>
+/* Phones: ready posts scroll sideways as in the Mobile v2 home. */
+@media (max-width: 599px) {
+    .ready-posts {
+        display: flex !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+    }
+    .ready-posts::-webkit-scrollbar {
+        display: none;
+    }
+    .ready-posts > * {
+        flex: 0 0 68%;
+        scroll-snap-align: start;
+    }
+}
 </style>
