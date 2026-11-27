@@ -19,10 +19,12 @@ export default defineNuxtConfig({
             titleTemplate: '%s · Dikho',
             meta: [
                 { name: 'viewport', content: 'width=device-width, initial-scale=1, viewport-fit=cover' },
-                { name: 'theme-color', content: '#0F172A' },
+                { name: 'theme-color', content: '#0D1129' },
                 { name: 'description', content: 'Plan the month, make posts and reels in your language, and run WhatsApp and Meta from one place.' },
             ],
             link: [
+                { rel: 'icon', type: 'image/png', href: '/images/logo_with_blue_Background.png' },
+                { rel: 'apple-touch-icon', href: '/images/logo_with_blue_Background.png' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
                 {

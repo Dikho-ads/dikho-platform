@@ -241,7 +241,7 @@ function signOut() {
     .side .brand {
         padding: 0;
     }
-    .side .brand :deep(.dk-logo > span) {
+    .side .brand :deep(.dk-logo__name) {
         display: none;
     }
     .side .shop {
